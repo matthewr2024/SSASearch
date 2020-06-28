@@ -1,2 +1,3 @@
 # SSA-New-Tab-Student
-A Yahoo powered search that donates $0.01 to St. Stephen’s Academy per search. 
+A Yahoo powered search engine that donates $0.01 to St. Stephen’s Academy per search. 
+Visit it here: https://matthewr2024.github.io/SSASearch/newtab.html
