@@ -6,4 +6,4 @@ Version with links to school related sites here: [https://matthewr2024.github.io
 
 ---
 
-You can submit feedback [here](https://bit.ly/SSASearchFeedback) or create a new issue on GitHub [here](https://github.com/matthewr2024/SSASearch/issues).
+You can submit feedback on office forms [here](https://bit.ly/SSASearchFeedback) or create a new issue on GitHub [here](https://github.com/matthewr2024/SSASearch/issues).
