@@ -38,3 +38,13 @@ h1 {
 .btn {
   text-align: center;
 }
+.donationMessageFooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #cfcfcf;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+}
