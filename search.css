@@ -42,10 +42,21 @@ h1 {
 .footer {
   position: fixed;
   left: 0;
+  bottom: 14;
+  width: 100%;
+  background-color: #cfcfcf;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+}
+
+.donationMessageFooter {
+  position: fixed;
+  left: 0;
   bottom: 0;
   width: 100%;
-  background-color: black;
-  color: white;
+  background-color: #cfcfcf;
+  color: black;
   text-align: center;
   font-size: 12px;
 }
