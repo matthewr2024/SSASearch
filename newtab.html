@@ -3,6 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="newtab.css" />
+    <link rel="stylesheet" href="shared.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <meta
       name="Description"
@@ -26,7 +27,7 @@
     <form target="_top" class="example" action="https://www.goodshop.com/search-web" style="margin: auto; max-width: 500px;">
       <input type="hidden" name="charityid" value="903615" />
       <input required type="text" name="keywords" placeholder="Search to donate..." aria-label="Search here to donate..." />
-      <button requiredtype="submit" aria-label="Search"><i class="fa fa-search"></i></button>
+      <button required type="submit" aria-label="Search"><i class="fa fa-search"></i></button>
     </form>
     <br />
     <div style="text-align: center;">
@@ -38,18 +39,10 @@
       <a href="https://meet.google.com/" class="btn btn-dark" role="button" target="_top">Meet</a>
     </div>
 
-    <style>
-      .footer {
-        position: fixed;
-        left: 0;
-        bottom: 14;
-        width: 100%;
-        background-color: #cfcfcf;
-        color: black;
-        text-align: center;
-        font-size: 12px;
-      }
-    </style>
+    <p class="textUnderSearch">
+      Every <a href="https://www.goodshop.com/faq#anchor-goodsearch:~:text=Do%20all%20of%20my%20searches%20count%20toward%20donations%3F">qualifying</a> search
+      donates $0.01 to St. Stephen’s Academy.
+    </p>
     <footer class="footer">
       <a href="https://matthewr2024.github.io/SSASearch/#ssasearch:~:text=Instalation%20Instructions">How to install</a>
       <a
@@ -57,14 +50,6 @@
         >Feedback</a
       >
       <a href="https://ststephensacademy.com/simple-fundraising/">Other ways to help</a>
-    </footer>
-    <footer class="donationMessageFooter">
-      <br />
-      <p>
-        Every
-        <a href="https://www.goodshop.com/faq#anchor-goodsearch:~:text=Do%20all%20of%20my%20searches%20count%20toward%20donations%3F">qualifying</a>
-        search donates $0.01 to St. Stephen’s Academy.
-      </p>
     </footer>
   </body>
 </html>
