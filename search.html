@@ -38,19 +38,16 @@
       <p class="textUnderSearch">Every <a href="https://www.goodshop.com/faq?q=9">qualifying</a> search donates $0.01 to St. Stephen’s Academy.</p>
 
       <div id="countdown-wrap">
-        <div id="goal">
-          1000 Search Goal
-          <updateFrequencyNotice>Data updated daily</updateFrequencyNotice>
-        </div>
+        <div id="goal" ng-bind="searchGoal+' Search Goal'"></div>
         <div class="progress">
-          <div class="progress-bar bg-dark" style="width: {{(Good2020.goodsearch2020.replace('$','')*10)}}%;"></div>
+          <div class="progress-bar bg-dark" style="width: {{goalpercent}};"></div>
         </div>
         <div class="goal-stat">
-          <span class="goal-number">{{(Good2020.goodsearch2020.replace('$','')*10)}}%</span>
+          <span class="goal-number" ng-bind="goalpercent"></span>
           <span class="goal-label">Of Goal</span>
         </div>
         <div class="goal-stat">
-          <span class="goal-number">{{ Good2020.total2020 }}</span>
+          <span class="goal-number" ng-bind="Good2020.total2020"></span>
           <span class="goal-label">Raised</span>
         </div>
         <div class="goal-stat">
@@ -58,7 +55,7 @@
           <span class="goal-label">Days to Go</span>
         </div>
         <div class="goal-stat">
-          <span class="goal-number">{{ (Good2020.goodsearch2020.replace('$','')*10)*10}}</span>
+          <span class="goal-number" ng-bind="searches2020"></span>
           <span class="goal-label">Searches</span>
         </div>
       </div>
