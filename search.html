@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="search.css" />
     <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="progressBar.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <meta
       name="Description"
@@ -14,30 +15,63 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script src="progress.js"></script>
     <title>SSASearch</title>
   </head>
   <body>
-    <br />
-    <h1>
-      <img src="https://ststephensacademy.com/wp-content/uploads/2018/08/ssa_mast_logo_black1.png" alt="" />
-    </h1>
-    <br />
+    <div ng-app="SSASerch" ng-controller="controller">
+      <br />
+      <h1>
+        <img src="https://ststephensacademy.com/wp-content/uploads/2018/08/ssa_mast_logo_black1.png" alt="" />
+      </h1>
+      <br />
 
-    <br />
-    <form target="_top" class="example" action="https://www.goodshop.com/search-web" style="margin: auto; max-width: 500px;">
-      <input type="hidden" name="charityid" value="903615" />
-      <input autofocus required type="text" name="keywords" placeholder="Search to donate..." aria-label="Search here to donate..." />
-      <button required type="submit" aria-label="Search"><i class="fa fa-search"></i></button>
-    </form>
-    <br />
-    <p class="textUnderSearch">Every <a href="https://www.goodshop.com/faq?q=9">qualifying</a> search donates $0.01 to St. Stephen’s Academy.</p>
-    <footer class="footer">
-      <a href="https://matthewr2024.github.io/SSASearch/#ssasearch:~:text=Instalation%20Instructions">How to install</a>
-      <a
-        href="https://matthewr2024.github.io/SSASearch/#ssasearch:~:text=You%20can%20submit%20feedback%20on%20office%20forms%20here%20or%20create%20a%20new%20issue%20on%20GitHub%20here."
-        >Feedback</a
-      >
-      <a target="_top" href="https://ststephensacademy.com/simple-fundraising/">Other ways to help</a>
-    </footer>
+      <br />
+      <form target="_top" class="example" action="https://www.goodshop.com/search-web" style="margin: auto; max-width: 500px;">
+        <input type="hidden" name="charityid" value="903615" />
+        <input autofocus required type="text" name="keywords" placeholder="Search to donate..." aria-label="Search here to donate..." />
+        <button required type="submit" aria-label="Search"><i class="fa fa-search"></i></button>
+      </form>
+      <br />
+      <p class="textUnderSearch">Every <a href="https://www.goodshop.com/faq?q=9">qualifying</a> search donates $0.01 to St. Stephen’s Academy.</p>
+
+      <div id="countdown-wrap">
+        <div id="goal">
+          1000 Search Goal
+          <updateFrequencyNotice>Data updated daily</updateFrequencyNotice>
+        </div>
+        <div class="progress">
+          <div class="progress-bar bg-dark" style="width: {{(Good2020.goodsearch2020.replace('$','')*10)}}%;"></div>
+        </div>
+        <div class="goal-stat">
+          <span class="goal-number">{{(Good2020.goodsearch2020.replace('$','')*10)}}%</span>
+          <span class="goal-label">Of Goal</span>
+        </div>
+        <div class="goal-stat">
+          <span class="goal-number">{{ Good2020.total2020 }}</span>
+          <span class="goal-label">Raised</span>
+        </div>
+        <div class="goal-stat">
+          <span class="goal-number"><div id="countdown"></div></span>
+          <span class="goal-label">Days to Go</span>
+        </div>
+        <div class="goal-stat">
+          <span class="goal-number">{{ (Good2020.goodsearch2020.replace('$','')*10)*10}}</span>
+          <span class="goal-label">Searches</span>
+        </div>
+      </div>
+      <!--http://stackoverflow.com/questions/9335140/how-to-countdown-to-a-date -->
+
+      <footer class="footer">
+        <a href="https://matthewr2024.github.io/SSASearch/#ssasearch:~:text=Instalation%20Instructions">How to install</a>
+        <a
+          href="https://matthewr2024.github.io/SSASearch/#ssasearch:~:text=You%20can%20submit%20feedback%20on%20office%20forms%20here%20or%20create%20a%20new%20issue%20on%20GitHub%20here."
+          >Feedback</a
+        >
+        <a target="_top" href="https://ststephensacademy.com/simple-fundraising/">Other ways to help</a>
+      </footer>
+    </div>
   </body>
 </html>
