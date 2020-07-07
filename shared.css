@@ -40,9 +40,10 @@ h1 {
   text-align: center;
 }
 .footer {
-  // position: fixed;
-  left: 0;
-  bottom: 0;
+  position: fixed;
+  //position: absolute
+  //left: 0;
+  bottom: 0 !important;
   width: 100%;
   background-color: #cfcfcf;
   color: black;
