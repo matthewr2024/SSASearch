@@ -5,6 +5,7 @@ Visit it here: [https://matthewr2024.github.io/SSASearch/search.html](https://ma
 
 Version with links to school related sites here: [https://matthewr2024.github.io/SSASearch/newtab.html](https://matthewr2024.github.io/SSASearch/newtab.html)
 
+![Screenshot of newtab.html](newtab.png)
 ---
 
 **Instalation Instructions**
