@@ -8,7 +8,7 @@ Version with links to school related sites here: [https://matthewr2024.github.io
 ![Screenshot of newtab.html](newtab.png)
 ---
 
-**Instalation Instructions**
+## Instalation Instructions
 You can set SSASearch as your New Tab Page. Follow the instructions below for your web browser.
 
 [Safari](https://docs.google.com/document/d/1hvIDYSHsTH5rLBWKoTj2aoFuXK-_38EydX8Ksw2D6Wo/edit?usp=sharing)
