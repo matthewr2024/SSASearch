@@ -16,15 +16,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="search.js"></script>
     <title>SSASearch | Search to Donate</title>
   </head>
   <body>
     <br />
     <h1>
-      <img src="https://ststephensacademy.com/wp-content/uploads/2018/08/ssa_mast_logo_black1.png" alt="" />
+      <img src="https://ststephensacademy.com/wp-content/uploads/2018/08/ssa_mast_logo_black1.png" alt="St. Stephen’s Academy Logo" />
     </h1>
     <br />
-
     <br />
     <form target="_top" class="example" action="https://www.goodshop.com/search-web" style="margin: auto; max-width: 500px;">
       <input type="hidden" name="charityid" value="903615" />
@@ -32,14 +32,13 @@
       <button required type="submit" aria-label="Search"><i class="fa fa-search"></i></button>
     </form>
     <br />
-    <p class="textUnderSearch">Every <a href="https://www.goodshop.com/faq?q=9">qualifying</a> search donates $0.01 to St. Stephen’s Academy.</p>
+    <p class="textUnderSearch">
+      Every <a id="qualifyingSearchesLink" href="https://www.goodshop.com/faq?q=9">qualifying</a> search donates $0.01 to St. Stephen’s Academy.
+    </p>
     <footer class="footer">
-      <a href="https://matthewr2024.github.io/SSASearch/#ssasearch:~:text=Instalation%20Instructions">How to install</a>
-      <a
-        href="https://matthewr2024.github.io/SSASearch/#ssasearch:~:text=You%20can%20submit%20feedback%20on%20office%20forms%20here%20or%20create%20a%20new%20issue%20on%20GitHub%20here."
-        >Feedback</a
-      >
-      <a target="_top" href="https://ststephensacademy.com/simple-fundraising/">Other ways to help</a>
+      <a id="installInstructionsLink" href="https://matthewr2024.github.io/SSASearch/#instalation-instructions">How to install</a>
+      <a id="feedbackLink" href="https://matthewr2024.github.io/SSASearch/#feedback">Feedback</a>
+      <a id="otherWaysToHelpLink" target="_top" href="https://ststephensacademy.com/simple-fundraising/">Other ways to help</a>
     </footer>
   </body>
 </html>
