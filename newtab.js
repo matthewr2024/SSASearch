@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  $.get("https://google-analytics.com/collect?v=1&t=pageview&tid=UA-171272647-1&cid=1&dp=newtab", function (data, status) {});
   $("#gmailButton").click(function (event) {
     event.preventDefault();
     $.get("https://google-analytics.com/collect?v=1&t=event&tid=UA-171272647-1&cid=0&ec=bookmarkClick&ea=click&el=gmail", function (data, status) {

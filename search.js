@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  $.get("https://google-analytics.com/collect?v=1&t=pageview&tid=UA-171272647-1&cid=1&dp=search", function (data, status) {});
   $("#qualifyingSearchesLink").click(function (event) {
     event.preventDefault();
     $.get("https://google-analytics.com/collect?v=1&t=event&tid=UA-171272647-1&cid=0&ec=linkClick&ea=click&el=qualifyingSearches", function (data, status) {
