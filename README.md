@@ -1,5 +1,7 @@
 # SSASearch
 
+[![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m786015693-883d889f8c867678b82acd50)](https://stats.uptimerobot.com/VlvgNTlM8L)
+
 SSASearch is a Yahoo/GoodSearch powered search engine that donates \$0.01 to [St. Stephen’s Academy on GoodShop](https://www.goodshop.com/nonprofit/st-stephens-academy-beaverton-or) per search.
 Visit it here: [https://matthewr2024.github.io/SSASearch/search.html](https://matthewr2024.github.io/SSASearch/search.html)
 
