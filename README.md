@@ -9,7 +9,7 @@ Visit it here: [https://matthewr2024.github.io/SSASearch/search.html](https://ma
 
 Version with links to school related sites here: [https://matthewr2024.github.io/SSASearch/newtab.html](https://matthewr2024.github.io/SSASearch/newtab.html)
 
-<img src="newtab.png" alt="Screenshot of newtab.html" title="Screenshot of newtab.html"  height="512" />
+<img src="newtab.png" alt="Screenshot of newtab.html" title="Screenshot of newtab.html"  height="400" />
 
 ## Installation Instructions
 
