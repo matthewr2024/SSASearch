@@ -5,11 +5,14 @@
 ![Amount raised badge](https://img.shields.io/badge/dynamic/json?label=Amount+raised&query=total2020&url=https%3A%2F%2Fwrapapi.com%2Fuse%2Fmatthewr2024%2Fssasearch%2Fgood2020%2F2.0.0%3FwrapAPIKey%3Dv794h1L87mGLXvmrwcOkDrWonOQc8pGN)
 
 SSASearch is a Yahoo/GoodSearch powered search engine that donates \$0.01 to [St. Stephen’s Academy on GoodShop](https://www.goodshop.com/nonprofit/st-stephens-academy-beaverton-or) per search.
-Visit it here: [https://matthewr2024.github.io/SSASearch/search.html](https://matthewr2024.github.io/SSASearch/search.html)
 
-Version with links to school related sites here: [https://matthewr2024.github.io/SSASearch/newtab.html](https://matthewr2024.github.io/SSASearch/newtab.html)
+**Visit it here:** <https://matthewr2024.github.io/SSASearch/search.html>
 
-<img src="newtab.png" alt="Screenshot of newtab.html" title="Screenshot of newtab.html"  height="400" />
+**Version with links to school related sites here:** <https://matthewr2024.github.io/SSASearch/newtab.html>
+
+**Version with random image background:** <https://matthewr2024.github.io/SSASearch/newtab-background.html>
+
+<img src="newtab-background.png" alt="Screenshot of newtab.html" title="Screenshot of newtab.html"  height="400" />
 
 ## Installation Instructions
 
