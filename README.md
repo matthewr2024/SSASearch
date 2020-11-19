@@ -6,11 +6,13 @@
 
 SSASearch is a Yahoo/GoodSearch powered search engine that donates \$0.01 to [St. Stephen’s Academy on GoodShop](https://www.goodshop.com/nonprofit/st-stephens-academy-beaverton-or) per search.
 
-Visit it here: [https://matthewr2024.github.io/SSASearch/search.html](https://matthewr2024.github.io/SSASearch/search.html)
+**Visit it here:** <https://matthewr2024.github.io/SSASearch/search.html>
 
-Version with links to school related sites here: [https://matthewr2024.github.io/SSASearch/newtab.html](https://matthewr2024.github.io/SSASearch/newtab.html)
+**Version with links to school related sites here:** <https://matthewr2024.github.io/SSASearch/newtab.html>
 
-<img src="newtab.png" alt="Screenshot of newtab.html" title="Screenshot of newtab.html"  height="400" />
+**Version with random image background:** <https://matthewr2024.github.io/SSASearch/newtab-background.html>
+
+<img src="newtab-background.png" alt="Screenshot of newtab.html" title="Screenshot of newtab.html"  height="400" />
 
 ## Installation Instructions
 
