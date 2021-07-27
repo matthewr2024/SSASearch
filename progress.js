@@ -34,14 +34,29 @@ window.searchGoal = 1000;
 var app = angular.module("SSASerch", []);
 app.controller("controller", function ($scope, $http) {
   $scope.searchGoal = window.searchGoal;
-  $http.get("https://wrapapi.com/use/matthewr2024/ssasearch/good2020/1.0.0?wrapAPIKey=v794h1L87mGLXvmrwcOkDrWonOQc8pGN").then(function (response) {
-    window.wrapapiresponse = response.data;
-    //  window.restonseString = JSON.stringify(response.data);
-    // window.dataFromResponseString = String(window.restonseString.match(/(?<=\[).*?(?=\])/));
-    $scope.Good2020 = /*JSON.parse(window.dataFromResponseString)*/ window.wrapapiresponse.data;
-    window.Good2020 = /*JSON.parse(window.dataFromResponseString)*/ window.wrapapiresponse.data;
-    $scope.searches2020 = window.Good2020.goodsearch2020.replace("$", "").replace(".", "");
-    window.searches2020 = window.Good2020.goodsearch2020.replace("$", "").replace(".", "");
-    $scope.goalpercent = Math.round((window.Good2020.goodsearch2020.replace("$", "").replace(".", "") / window.searchGoal) * 100) + "%";
-  });
+  $http
+    .get(
+      "https://wrapapi.com/use/matthewr2024/ssasearch/good2020/1.0.0?wrapAPIKey=v794h1L87mGLXvmrwcOkDrWonOQc8pGN"
+    )
+    .then(function (response) {
+      window.wrapapiresponse = response.data;
+      //  window.restonseString = JSON.stringify(response.data);
+      // window.dataFromResponseString = String(window.restonseString.match(/(?<=\[).*?(?=\])/));
+      $scope.Good2020 =
+        /*JSON.parse(window.dataFromResponseString)*/ window.wrapapiresponse.data;
+      window.Good2020 =
+        /*JSON.parse(window.dataFromResponseString)*/ window.wrapapiresponse.data;
+      $scope.searches2020 = window.Good2020.goodsearch2020
+        .replace("$", "")
+        .replace(".", "");
+      window.searches2020 = window.Good2020.goodsearch2020
+        .replace("$", "")
+        .replace(".", "");
+      $scope.goalpercent =
+        Math.round(
+          (window.Good2020.goodsearch2020.replace("$", "").replace(".", "") /
+            window.searchGoal) *
+            100
+        ) + "%";
+    });
 });
