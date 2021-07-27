@@ -1,3 +1,9 @@
+---
+layout: default
+title: SSASearch
+description:
+---
+
 # SSASearch
 
 [![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m786015693-883d889f8c867678b82acd50)](https://stats.uptimerobot.com/VlvgNTlM8L)

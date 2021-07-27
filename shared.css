@@ -1,5 +1,5 @@
 body {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
 }
 
 * {
@@ -45,7 +45,7 @@ h1 {
   //left: 0;
   bottom: 0 !important;
   width: 100%;
-  background-color: #cfcfcf;
+  background-color: #eeeeee;
   color: black;
   text-align: left;
   font-size: 12px;
@@ -54,6 +54,11 @@ h1 {
 
 footer > a {
   padding: 5px;
+  color: #2d2d2d;
+}
+
+a {
+  color: #0050a5;
 }
 
 .textUnderSearch {

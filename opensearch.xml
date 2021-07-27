@@ -1,0 +1,14 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>SSASearch</ShortName>
+  <Description>SSASearch: A search engine homepage that donates $0.01 to St. Stephen’s Academy per search.</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://ststephensacademy.com/favicon.ico</Image>
+  <Url type="text/html" template="https://www.goodshop.com/search-web">
+    <Param name="keywords" value="{searchTerms}"/>
+    <!-- other Params if you need them… -->
+    <Param name="charityid" value="903615"/>
+  </Url>
+  <Url type="application/x-suggestions+json" template="http://ff.search.yahoo.com/gossip?output=fxjson&command={searchTerms}"/>
+  <!-- <moz:SearchForm>[https://example.com/search]</moz:SearchForm> -->
+</OpenSearchDescription>
