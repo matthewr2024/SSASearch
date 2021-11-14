@@ -1,8 +1,8 @@
 # SSASearch
 
 [![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m786015693-883d889f8c867678b82acd50)](https://stats.uptimerobot.com/VlvgNTlM8L)
-![Searches badge](https://img.shields.io/badge/dynamic/json?label=Searches&query=searches2020&url=https%3A%2F%2Fwrapapi.com%2Fuse%2Fmatthewr2024%2Fssasearch%2Fgood2020%2F2.0.0%3FwrapAPIKey%3Dv794h1L87mGLXvmrwcOkDrWonOQc8pGN)
-![Amount raised badge](https://img.shields.io/badge/dynamic/json?label=Amount+raised&query=total2020&url=https%3A%2F%2Fwrapapi.com%2Fuse%2Fmatthewr2024%2Fssasearch%2Fgood2020%2F2.0.0%3FwrapAPIKey%3Dv794h1L87mGLXvmrwcOkDrWonOQc8pGN)
+![Searches badge](https://img.shields.io/badge/dynamic/json?label=Searches&query=searchesThisYear&url=https%3A%2F%2Fwrapapi.com%2Fuse%2Fmatthewr2024%2Fssasearch%2Fssagoodshop%2F3.0.1%3FwrapAPIKey%3Dv794h1L87mGLXvmrwcOkDrWonOQc8pGN)
+![Amount raised badge](https://img.shields.io/badge/dynamic/json?label=Amount%20raised&query=goodsearchThisYear&url=https%3A%2F%2Fwrapapi.com%2Fuse%2Fmatthewr2024%2Fssasearch%2Fssagoodshop%2F3.0.1%3FwrapAPIKey%3Dv794h1L87mGLXvmrwcOkDrWonOQc8pGN)
 
 SSASearch is a Yahoo/GoodSearch powered search engine that donates \$0.01 to [St. Stephen’s Academy on GoodShop](https://www.goodshop.com/nonprofit/st-stephens-academy-beaverton-or) per search.
 
